@@ -4,7 +4,7 @@ def add_many(*args):
     total = 0
     for arg in args:
         total += arg
-    print args, " = " , total
+ #   print args, " = " , total
 
 
 def main():
