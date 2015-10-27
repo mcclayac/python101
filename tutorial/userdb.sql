@@ -1,0 +1,16 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE Users(Id INT, Name TEXT);
+INSERT INTO "Users" VALUES(1,'Michelle');
+INSERT INTO "Users" VALUES(2,'Sonya');
+INSERT INTO "Users" VALUES(3,'Greg');
+INSERT INTO "Users" VALUES(1,'Michelle');
+INSERT INTO "Users" VALUES(2,'Sonya');
+INSERT INTO "Users" VALUES(3,'Greg');
+INSERT INTO "Users" VALUES(1,'Michelle');
+INSERT INTO "Users" VALUES(2,'Sonya');
+INSERT INTO "Users" VALUES(3,'Greg');
+INSERT INTO "Users" VALUES(1,'Michelle');
+INSERT INTO "Users" VALUES(2,'Sonya');
+INSERT INTO "Users" VALUES(3,'Greg');
+COMMIT;
